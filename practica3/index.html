@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario Login</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section class="form-login" style="display: block;">
+      <h5>Formulario Login</h5>
+      
+      <input class="correo" type="text" name="usuario" value="" placeholder="Usuario">
+      <input class="contraseña" type="password" name="contrasena" value="" placeholder="Contraseña">
+      <input class="buttons" type="submit" name="" value="Ingresar">
+     <a onclick="ward();">
+      <input class="buttons" type="submit" name="" value="Registrar">
+    </a>
+    <a onclick="regisGoogle();">
+      <input class="buttons" type="submit" name="" value="Regisrar con Google">
+    </a>
+    <a onclick="regisFacebook();">
+      <input class="buttons" type="submit" name="" value="Regisrar con Facebook">
+      <h8>by Irving nuñez</h8>
+    </a>
+    </section>
+    <section class="form-register" style="display: none;">
+      <h4>Formulario Registro</h4>
+      <input class="mail" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+      <input class="contra" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+      <a onclick="registro();">
+      <input class="botons" type="submit" value="Registrar">
+    </a>
+      <a onclick="regresar();">
+      <input class="botonss" type="submit" value="Volver">
+      </a>
+      <br>
+      
+    </section>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+<!-- Add Firebase products that you want to use -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+<!-- Use Firestore -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>
