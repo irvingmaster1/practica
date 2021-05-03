@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 10vh;
+    background-color: rgba(25, 153, 192, 0.808);
+}
+main{
+    height: 80vh;
+    display: grid;
+    grid-template-rows: 30px 5fr;
+}
+    #nav{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        column-gap: 10px;
+        padding: 0 10px;
+    }
+        li{
+            list-style-type: none;
+        }
+            li span{
+                display: grid;
+                justify-items: center;
+                background-color: rgb(77, 170, 74);
+                color: #fff;
+                padding: 5px;
+                border-radius: 0 0 5px 5px;
+            }
+            #_definicion{
+                background-color: darkslategray;
+            }
+            #_funcion{
+                background-color: darkturquoise;
+            }
+            #_asincronia{
+                background-color: darkviolet;
+            }
+            #_callback{
+                background-color: goldenrod;
+            }
+            #_nota{
+                background-color: forestgreen;
+            }
+
+footer{
+    height: 10vh;
+    background-color: rgba(25, 153, 192, 0.808);
+}
+
